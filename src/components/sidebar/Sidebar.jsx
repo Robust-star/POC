@@ -1,30 +1,23 @@
 import "./sidebar.css";
 import {
   LineStyle,
-  Timeline,
-  TrendingUp,
-  PermIdentity,
-  Storefront,
-  AttachMoney,
-  BarChart,
-  MailOutline,
-  DynamicFeed,
-  ChatBubbleOutline,
-  WorkOutline,
-  Report,
+  DeleteForever,
   Delete,
   Add,
   Edit,
   AccountBalanceWallet,
-  Iso
-  
-  
+  Iso,
+  Payment,
 } from "@material-ui/icons";
-
-// import AddIcon from '@mui/icons-material/Add';
+import NotesIcon from '@mui/icons-material/Notes';
+import DocumentScannerIcon from '@mui/icons-material/DocumentScanner';
+import FeedIcon from '@mui/icons-material/Feed';
+import ChangeCircleIcon from '@mui/icons-material/ChangeCircle';
+import CompareArrowsIcon from '@mui/icons-material/CompareArrows';
 import { Link } from "react-router-dom";
-// import { FolderDelete } from "@mui/icons-material";
-// import { PersonRemove } from "@mui/icons-material";
+import CurrencyExchange from '@mui/icons-material/CurrencyExchange';
+import { Feed } from "@mui/icons-material";
+import LoginIcon from '@mui/icons-material/Login';
 
 export default function Sidebar() {
   return (
@@ -35,7 +28,7 @@ export default function Sidebar() {
           <ul className="sidebarList">
             <Link to="/" className="link">
             <li className="sidebarListItem active">
-              <LineStyle className="sidebarIcon" />
+              <LineStyle className="sidebarIcon"/>
               Home
             </li>
             </Link>
@@ -67,55 +60,56 @@ export default function Sidebar() {
             </Link>
             <Link to="/products" className="link">
               <li className="sidebarListItem">
-                <Iso className="sidebarIcon" />
+                <DeleteForever className="sidebarIcon" />
                 Delete Account
               </li>
             </Link>
             <Link to="/products" className="link">
               <li className="sidebarListItem">
-                <Storefront className="sidebarIcon" />
+                <CurrencyExchange className="sidebarIcon" />
                 Deposit
               </li>
             </Link>
             <Link to="/products" className="link">
               <li className="sidebarListItem">
-                <Storefront className="sidebarIcon" />
+                <Payment className="sidebarIcon" />
                 Withdrawal
               </li>
             </Link>
             <Link to="/products" className="link">
               <li className="sidebarListItem">
-                <Storefront className="sidebarIcon" />
+                <CompareArrowsIcon className="sidebarIcon" />
                 Fund Transfer
               </li>
             </Link>
             <Link to="/products" className="link">
               <li className="sidebarListItem">
-                <Storefront className="sidebarIcon" />
+                <ChangeCircleIcon className="sidebarIcon" />
                 Change Password
               </li>
             </Link>
             <Link to="/products" className="link">
               <li className="sidebarListItem">
-                <Storefront className="sidebarIcon" />
+                <Feed className="sidebarIcon" />
                 Balance Enquiry
               </li>
             </Link>
             <Link to="/products" className="link">
               <li className="sidebarListItem">
-                <Storefront className="sidebarIcon" />
+                <NotesIcon className="sidebarIcon" />
                 Mini Statement
               </li>
             </Link>
             <Link to="/products" className="link">
               <li className="sidebarListItem">
-                <Storefront className="sidebarIcon" />
-                Balance Enquiry
+                <DocumentScannerIcon className="sidebarIcon" />
+                Customized Statement
+
               </li>
             </Link>
             <Link to="/products" className="link">
               <li className="sidebarListItem">
-                <Storefront className="sidebarIcon" />
+                <LoginIcon className="sidebarIcon" />
                 Login & Logout
               </li>
             </Link>
