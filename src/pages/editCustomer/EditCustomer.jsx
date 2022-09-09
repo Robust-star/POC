@@ -1,9 +1,9 @@
-import "./newUser.css";
+import "./editCustomer.css";
 
-export default function NewUser() {
+export default function EditCustomer() {
   return (
     <div className="newUser">
-      <h1 className="newUserTitle">New Customer</h1>
+      <h1 className="newUserTitle">Edit Customer</h1>
       <form className="newUserForm">
         <div className="newUserItem">
           <label>Customer Name</label>

@@ -32,14 +32,18 @@ export default function Sidebar() {
               Home
             </li>
             </Link>
+            <Link to="/newuser" className="link">
             <li className="sidebarListItem">
               <Add className="sidebarIcon" />
               Add new Customer
             </li>
+            </Link>
+            <Link to="/edituser" className="link">
             <li className="sidebarListItem">
               <Edit className="sidebarIcon" />
               Edit Customer
             </li>
+            </Link>
             <Link to="/users" className="link">
               <li className="sidebarListItem">
                 <Delete className="sidebarIcon" />
