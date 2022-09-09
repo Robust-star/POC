@@ -13,7 +13,7 @@ export default function User() {
   return (
     <div className="user">
       <div className="userTitleContainer">
-        <h1 className="userTitle">Edit User</h1>
+        <h1 className="userTitle">Edit Customer</h1>
         <Link to="/newUser">
           <button className="userAddButton">Create</button>
         </Link>
@@ -27,7 +27,7 @@ export default function User() {
               className="userShowImg"
             />
             <div className="userShowTopTitle">
-              <span className="userShowUsername">Anna Becker</span>
+              <span className="userShowUsername">Simran Singh</span>
               <span className="userShowUserTitle">Software Engineer</span>
             </div>
           </div>
@@ -35,7 +35,7 @@ export default function User() {
             <span className="userShowTitle">Account Details</span>
             <div className="userShowInfo">
               <PermIdentity className="userShowIcon" />
-              <span className="userShowInfoTitle">annabeck99</span>
+              <span className="userShowInfoTitle">SimranRaj1999</span>
             </div>
             <div className="userShowInfo">
               <CalendarToday className="userShowIcon" />
@@ -44,15 +44,15 @@ export default function User() {
             <span className="userShowTitle">Contact Details</span>
             <div className="userShowInfo">
               <PhoneAndroid className="userShowIcon" />
-              <span className="userShowInfoTitle">+1 123 456 67</span>
+              <span className="userShowInfoTitle">+91 123 456 67</span>
             </div>
             <div className="userShowInfo">
               <MailOutline className="userShowIcon" />
-              <span className="userShowInfoTitle">annabeck99@gmail.com</span>
+              <span className="userShowInfoTitle">simransingh@gmail.com</span>
             </div>
             <div className="userShowInfo">
               <LocationSearching className="userShowIcon" />
-              <span className="userShowInfoTitle">New York | USA</span>
+              <span className="userShowInfoTitle">Punjab, India</span>
             </div>
           </div>
         </div>
@@ -61,26 +61,50 @@ export default function User() {
           <form className="userUpdateForm">
             <div className="userUpdateLeft">
               <div className="userUpdateItem">
-                <label>Username</label>
-                <input
-                  type="text"
-                  placeholder="annabeck99"
-                  className="userUpdateInput"
-                />
-              </div>
-              <div className="userUpdateItem">
                 <label>Full Name</label>
                 <input
                   type="text"
-                  placeholder="Anna Becker"
+                  placeholder="Simran Singh"
                   className="userUpdateInput"
                 />
               </div>
               <div className="userUpdateItem">
-                <label>Email</label>
+                <label>Date of Birth</label>
+                <input
+                  type="date"
+                  placeholder="12-09-1999"
+                  className="userUpdateInput"
+                />
+              </div>
+              <div className="userUpdateItem">
+                <label>Address</label>
                 <input
                   type="text"
-                  placeholder="annabeck99@gmail.com"
+                  placeholder="Punjab,India"
+                  className="userUpdateInput"
+                />
+              </div>
+              <div className="userUpdateItem">
+                <label>City</label>
+                <input
+                  type="text"
+                  placeholder="City"
+                  className="userUpdateInput"
+                />
+              </div>
+              <div className="userUpdateItem">
+                <label>State</label>
+                <input
+                  type="text"
+                  placeholder="State"
+                  className="userUpdateInput"
+                />
+              </div>
+              <div className="userUpdateItem">
+                <label>Pin</label>
+                <input
+                  type="text"
+                  placeholder="Pin"
                   className="userUpdateInput"
                 />
               </div>
@@ -91,12 +115,13 @@ export default function User() {
                   placeholder="+1 123 456 67"
                   className="userUpdateInput"
                 />
+                
               </div>
               <div className="userUpdateItem">
-                <label>Address</label>
+                <label>Email</label>
                 <input
-                  type="text"
-                  placeholder="New York | USA"
+                  type="email"
+                  placeholder="example@gmail.com"
                   className="userUpdateInput"
                 />
               </div>

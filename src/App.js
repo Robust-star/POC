@@ -24,6 +24,7 @@ function App() {
           <Route path="/users">
             <UserList />
           </Route>
+          
           <Route path="/user/:userId">
             <User />
           </Route>
@@ -33,6 +34,9 @@ function App() {
           <Route path="/edituser">
             <EditUser />
           </Route>
+          {/* <Route exact path="/edituser/user/:userId">
+            <User />
+          </Route> */}
           <Route path="/products">
             <ProductList />
           </Route>
