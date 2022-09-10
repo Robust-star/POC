@@ -5,12 +5,13 @@ import Home from "./pages/home/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import UserList from "./pages/userList/UserList";
 import User from "./pages/user/User";
-import NewUser from "./pages/newUser/NewUser";
+import NewUser from "./pages/newCustomer/NewCustomer";
 import ProductList from "./pages/productList/ProductList";
 import Product from "./pages/product/Product";
 import NewProduct from "./pages/newProduct/NewProduct";
 import EditUser from "./pages/editCustomer/EditCustomer"
 import DeleteCustomer from "./pages/deleteCustomer/DeleteCustomer";
+import NewAccount from "./pages/newAccount/NewAccount";
 function App() {
   return (
     <Router>
@@ -36,6 +37,9 @@ function App() {
           </Route>
           <Route exact path="/deletecustomer">
             <DeleteCustomer />
+          </Route>
+          <Route exact path="/newaccount">
+            <NewAccount />
           </Route>
           <Route path="/products">
             <ProductList />

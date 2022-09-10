@@ -50,7 +50,7 @@ export default function Sidebar() {
                 Delete Customer
               </li>
             </Link>
-            <Link to="/products" className="link">
+            <Link to="/newaccount" className="link">
               <li className="sidebarListItem">
                 <AccountBalanceWallet className="sidebarIcon" />
                 New Account
