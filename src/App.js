@@ -10,7 +10,7 @@ import ProductList from "./pages/productList/ProductList";
 import Product from "./pages/product/Product";
 import NewProduct from "./pages/newProduct/NewProduct";
 import EditUser from "./pages/editCustomer/EditCustomer"
-
+import DeleteCustomer from "./pages/deleteCustomer/DeleteCustomer";
 function App() {
   return (
     <Router>
@@ -34,9 +34,9 @@ function App() {
           <Route path="/edituser">
             <EditUser />
           </Route>
-          {/* <Route exact path="/edituser/user/:userId">
-            <User />
-          </Route> */}
+          <Route exact path="/deletecustomer">
+            <DeleteCustomer />
+          </Route>
           <Route path="/products">
             <ProductList />
           </Route>

@@ -44,7 +44,7 @@ export default function Sidebar() {
               Edit Customer
             </li>
             </Link>
-            <Link to="/users" className="link">
+            <Link to="/deletecustomer" className="link">
               <li className="sidebarListItem">
                 <Delete className="sidebarIcon" />
                 Delete Customer
