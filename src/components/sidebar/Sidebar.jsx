@@ -80,7 +80,7 @@ export default function Sidebar() {
                 Withdrawal
               </li>
             </Link>
-            <Link to="/products" className="link">
+            <Link to="/fundtransfer" className="link">
               <li className="sidebarListItem">
                 <CompareArrowsIcon className="sidebarIcon" />
                 Fund Transfer
