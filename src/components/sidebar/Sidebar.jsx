@@ -92,7 +92,7 @@ export default function Sidebar() {
                 Change Password
               </li>
             </Link>
-            <Link to="/products" className="link">
+            <Link to="/balanceenquiry" className="link">
               <li className="sidebarListItem">
                 <Feed className="sidebarIcon" />
                 Balance Enquiry

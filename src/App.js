@@ -18,6 +18,7 @@ import Deposit from "./pages/deposit/Deposit"
 import Withdrawal from "./pages/withdrawal/Withdrawal"
 import FundTransfer from "./pages/fundTransfer/FundTransfer";
 import ChangePassword from "./pages/changePassword/ChangePassword";
+import BalanceEnquiry from "./pages/balanceEnquiry/BalanceEnquiry";
 function App() {
   return (
     <Router>
@@ -64,6 +65,9 @@ function App() {
           </Route>
           <Route path="/changepassword">
             <ChangePassword/>
+          </Route>
+          <Route path="/balanceenquiry">
+            <BalanceEnquiry />
           </Route>
           <Route path="/newproduct">
             <NewProduct />
