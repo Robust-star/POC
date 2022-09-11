@@ -1,13 +1,13 @@
-.deposit {
+.withdrawal {
     flex: 4;
   }
   
-  .depositForm {
-    display: flex;
+  .withdrawalForm {
+    /* display: flex; */
     flex-wrap: wrap;
   }
   
-  .depositItem {
+  .withdrawalItem {
     width: 400px;
     display: flex;
     flex-direction: column;
@@ -16,36 +16,36 @@
     /* flex: 81% 0; */
   }
   
-  .depositItem > label {
+  .withdrawalItem > label {
     margin-bottom: 10px;
     font-size: 14px;
     font-weight: 600;
     color: rgb(151, 150, 150);
   }
   
-  .depositItem > input {
+  .withdrawalItem > input {
     height: 20px;
     padding: 10px;
     border: 1px solid gray;
     border-radius: 5px;
   }
   
-  .depositGender > input {
+  .withdrawalGender > input {
     margin-top: 15px;
   }
   
-  .depositGender>label{
+  .withdrawalGender>label{
       margin: 10px;
       font-size: 18px;
       color: #555;
   }
   
-  .depositSelect{
+  .withdrawalSelect{
       height: 40px;
       border-radius: 5px;
   }
   
-  .depositButton{
+  .withdrawalButton{
       width: 200px;
       border: none;
       background-color: darkblue;

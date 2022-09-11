@@ -1,25 +1,26 @@
 import Sidebar from "./components/sidebar/Sidebar";
 import Topbar from "./components/topbar/Topbar";
 import "./App.css";
-import Home from "./pages/home/Home";
+import Home from "./pages/Manager/home/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import UserList from "./pages/userList/UserList";
-import User from "./pages/user/User";
-import NewUser from "./pages/newCustomer/NewCustomer";
+import UserList from "./pages/Manager/userList/UserList";
+import User from "./pages/Manager/user/User";
+import NewUser from "./pages/Manager/newCustomer/NewCustomer";
 import ProductList from "./pages/productList/ProductList";
 import Product from "./pages/product/Product";
 import NewProduct from "./pages/newProduct/NewProduct";
-import EditUser from "./pages/editCustomer/EditCustomer"
-import DeleteCustomer from "./pages/deleteCustomer/DeleteCustomer";
-import NewAccount from "./pages/newAccount/NewAccount";
-import EditAccount from "./pages/editAccount/EditAccount";
-import DeleteAccount from "./pages/deleteAccount/DeleteAccount";
-import Deposit from "./pages/deposit/Deposit"
-import Withdrawal from "./pages/withdrawal/Withdrawal"
-import FundTransfer from "./pages/fundTransfer/FundTransfer";
-import ChangePassword from "./pages/changePassword/ChangePassword";
-import BalanceEnquiry from "./pages/balanceEnquiry/BalanceEnquiry";
-import MiniStatement from './pages/miniStatement/MiniStatement'
+import EditUser from "./pages/Manager/editCustomer/EditCustomer"
+import DeleteCustomer from "./pages/Manager/deleteCustomer/DeleteCustomer";
+import NewAccount from "./pages/Manager/newAccount/NewAccount";
+import EditAccount from "./pages/Manager/editAccount/EditAccount";
+import DeleteAccount from "./pages/Manager/deleteAccount/DeleteAccount";
+import Deposit from "./pages/Manager/deposit/Deposit"
+import Withdrawal from "./pages/Manager/withdrawal/Withdrawal"
+import FundTransfer from "./pages/Manager/fundTransfer/FundTransfer";
+import ChangePassword from "./pages/Manager/changePassword/ChangePassword";
+import BalanceEnquiry from "./pages/Manager/balanceEnquiry/BalanceEnquiry";
+import MiniStatement from './pages/Manager/miniStatement/MiniStatement'
+import CustomStat from "./pages/Manager/customizedStatement/CustomStat";
 function App() {
   return (
     <Router>
@@ -72,6 +73,9 @@ function App() {
           </Route>
           <Route path="/ministatement">
             <MiniStatement />
+          </Route>
+          <Route path="/customizedstatement">
+            <CustomStat />
           </Route>
           <Route path="/newproduct">
             <NewProduct />

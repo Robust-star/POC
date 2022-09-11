@@ -1,7 +1,7 @@
 import "./miniStatement.css";
 import { DataGrid } from "@material-ui/data-grid";
 import { DeleteOutline } from "@material-ui/icons";
-import { userRows } from "../../dummyData1";
+import { userRows } from "../../../dummyData1";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 

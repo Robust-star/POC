@@ -104,7 +104,7 @@ export default function Sidebar() {
                 Mini Statement
               </li>
             </Link>
-            <Link to="/products" className="link">
+            <Link to="/customizedstatement" className="link">
               <li className="sidebarListItem">
                 <DocumentScannerIcon className="sidebarIcon" />
                 Customized Statement
