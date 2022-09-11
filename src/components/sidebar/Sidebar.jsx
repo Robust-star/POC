@@ -56,13 +56,13 @@ export default function Sidebar() {
                 New Account
               </li>
             </Link>
-            <Link to="/products" className="link">
+            <Link to="/editaccount" className="link">
               <li className="sidebarListItem">
                 <Iso className="sidebarIcon" />
                 Edit Account
               </li>
             </Link>
-            <Link to="/products" className="link">
+            <Link to="/deleteaccount" className="link">
               <li className="sidebarListItem">
                 <DeleteForever className="sidebarIcon" />
                 Delete Account

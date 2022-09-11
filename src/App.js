@@ -12,6 +12,8 @@ import NewProduct from "./pages/newProduct/NewProduct";
 import EditUser from "./pages/editCustomer/EditCustomer"
 import DeleteCustomer from "./pages/deleteCustomer/DeleteCustomer";
 import NewAccount from "./pages/newAccount/NewAccount";
+import EditAccount from "./pages/editAccount/EditAccount";
+import DeleteAccount from "./pages/deleteAccount/DeleteAccount";
 function App() {
   return (
     <Router>
@@ -40,6 +42,12 @@ function App() {
           </Route>
           <Route exact path="/newaccount">
             <NewAccount />
+          </Route>
+          <Route exact path="/editaccount">
+            <EditAccount />
+          </Route>
+          <Route exact path="/deleteaccount">
+            <DeleteAccount />
           </Route>
           <Route path="/products">
             <ProductList />
