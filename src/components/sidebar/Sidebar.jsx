@@ -86,7 +86,7 @@ export default function Sidebar() {
                 Fund Transfer
               </li>
             </Link>
-            <Link to="/products" className="link">
+            <Link to="/changepassword" className="link">
               <li className="sidebarListItem">
                 <ChangeCircleIcon className="sidebarIcon" />
                 Change Password

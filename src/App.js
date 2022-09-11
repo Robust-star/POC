@@ -17,6 +17,7 @@ import DeleteAccount from "./pages/deleteAccount/DeleteAccount";
 import Deposit from "./pages/deposit/Deposit"
 import Withdrawal from "./pages/withdrawal/Withdrawal"
 import FundTransfer from "./pages/fundTransfer/FundTransfer";
+import ChangePassword from "./pages/changePassword/ChangePassword";
 function App() {
   return (
     <Router>
@@ -61,8 +62,8 @@ function App() {
           <Route path="/fundtransfer">
             <FundTransfer />
           </Route>
-          <Route path="/product/:productId">
-            <Product />
+          <Route path="/changepassword">
+            <ChangePassword/>
           </Route>
           <Route path="/newproduct">
             <NewProduct />
