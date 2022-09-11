@@ -68,7 +68,7 @@ export default function Sidebar() {
                 Delete Account
               </li>
             </Link>
-            <Link to="/products" className="link">
+            <Link to="/deposit" className="link">
               <li className="sidebarListItem">
                 <CurrencyExchange className="sidebarIcon" />
                 Deposit

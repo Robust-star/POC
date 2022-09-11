@@ -14,6 +14,7 @@ import DeleteCustomer from "./pages/deleteCustomer/DeleteCustomer";
 import NewAccount from "./pages/newAccount/NewAccount";
 import EditAccount from "./pages/editAccount/EditAccount";
 import DeleteAccount from "./pages/deleteAccount/DeleteAccount";
+import Deposit from "./pages/deposit/Deposit"
 function App() {
   return (
     <Router>
@@ -48,6 +49,9 @@ function App() {
           </Route>
           <Route exact path="/deleteaccount">
             <DeleteAccount />
+          </Route>
+          <Route exact path="/deposit">
+            <Deposit />
           </Route>
           <Route path="/products">
             <ProductList />
