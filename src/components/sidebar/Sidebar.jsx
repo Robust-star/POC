@@ -74,7 +74,7 @@ export default function Sidebar() {
                 Deposit
               </li>
             </Link>
-            <Link to="/products" className="link">
+            <Link to="/withdrawal" className="link">
               <li className="sidebarListItem">
                 <Payment className="sidebarIcon" />
                 Withdrawal

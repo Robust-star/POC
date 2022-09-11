@@ -15,6 +15,7 @@ import NewAccount from "./pages/newAccount/NewAccount";
 import EditAccount from "./pages/editAccount/EditAccount";
 import DeleteAccount from "./pages/deleteAccount/DeleteAccount";
 import Deposit from "./pages/deposit/Deposit"
+import Withdrawal from "./pages/withdrawal/Withdrawal"
 function App() {
   return (
     <Router>
@@ -53,8 +54,8 @@ function App() {
           <Route exact path="/deposit">
             <Deposit />
           </Route>
-          <Route path="/products">
-            <ProductList />
+          <Route path="/withdrawal">
+            <Withdrawal />
           </Route>
           <Route path="/product/:productId">
             <Product />
