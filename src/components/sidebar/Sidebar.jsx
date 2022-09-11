@@ -98,7 +98,7 @@ export default function Sidebar() {
                 Balance Enquiry
               </li>
             </Link>
-            <Link to="/products" className="link">
+            <Link to="/ministatement" className="link">
               <li className="sidebarListItem">
                 <NotesIcon className="sidebarIcon" />
                 Mini Statement
@@ -111,7 +111,7 @@ export default function Sidebar() {
 
               </li>
             </Link>
-            <Link to="/products" className="link">
+            <Link to="/userlist" className="link">
               <li className="sidebarListItem">
                 <LoginIcon className="sidebarIcon" />
                 Login & Logout

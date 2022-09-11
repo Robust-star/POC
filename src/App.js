@@ -19,6 +19,7 @@ import Withdrawal from "./pages/withdrawal/Withdrawal"
 import FundTransfer from "./pages/fundTransfer/FundTransfer";
 import ChangePassword from "./pages/changePassword/ChangePassword";
 import BalanceEnquiry from "./pages/balanceEnquiry/BalanceEnquiry";
+import MiniStatement from './pages/miniStatement/MiniStatement'
 function App() {
   return (
     <Router>
@@ -69,8 +70,17 @@ function App() {
           <Route path="/balanceenquiry">
             <BalanceEnquiry />
           </Route>
+          <Route path="/ministatement">
+            <MiniStatement />
+          </Route>
           <Route path="/newproduct">
             <NewProduct />
+          </Route>
+          <Route path="/newproduct">
+            <NewProduct />
+          </Route>
+          <Route path="/userlist">
+            <UserList />
           </Route>
         </Switch>
       </div>
